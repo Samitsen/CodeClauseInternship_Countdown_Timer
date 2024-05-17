@@ -1,0 +1,122 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppons', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image:url("Durgabg1.jpg");
+    background-position: left;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+}
+.Logo{
+    width: 120px;
+    cursor: pointer;
+    margin-left: -30px;
+  margin-top: 1cm;
+}
+.durga{
+    width: 200px;
+    cursor: pointer;
+    margin-left: 60px;
+  margin-top: 1.5cm;
+  position:absolute;
+}
+
+  .corner {
+    width: 200px;
+    cursor: pointer;
+    margin-left: 1100px;
+  margin-top: 0.5cm;
+  position:absolute;
+
+
+  }
+.o{
+    font-family: 'Sofia', sans-serif;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.content h2{
+    font-size: 50px;
+    font-weight: 300;
+}
+.content span{
+    color: red;
+    text-shadow: 4px 4px 4px #aaa;
+}
+.content s1{
+    font-size: 40px;
+    text-emphasis-color: rgb(255, 208, 0);
+}
+.content button{
+    background: transparent;
+    border: 2px solid black;
+    outline: none;
+    padding: 10px 25px;
+    color: azure;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+   vertical-align: middle; 
+   
+} 
+.timer{
+    display: flex;
+}
+.timer div{
+    flex-basis: 100px;
+    color: aqua;
+   
+}
+.timer div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+    padding: 15px;;
+}
+.timer div span1{
+    font-size: 20px;
+    padding: 20px;
+    color: greenyellow;
+}
+.timer div span2{
+    font-size: 20px;
+    padding:5px;
+    color: greenyellow;
+
+}
+.trident{
+    width:250px;
+    position:fixed;
+    right: 55%;
+    bottom: 0;
+    animation: trident 4s linear infinite;
+}
+@keyframes trident{
+    0%
+    {
+        bottom: 0;
+        opacity: 100;
+
+    }
+    100%
+    {
+        bottom: 105%;
+        opacity: 20;
+        
+    }
+}
